@@ -1,4 +1,4 @@
-<a href="https://dot.net/architecture">
+<a href="https://github.com/janneison">
    <img src="https://github.com/dotnet-architecture/eShopOnContainers/raw/dev/img/eshop_logo.png" alt="eShop logo" title="eShopOnContainers" align="right" height="60" />
 </a>
 
@@ -42,7 +42,9 @@ El siguiente diagrama de clases ilustra a manera general como deberia funcionar 
 
 ![](img/diagram-clases.png)
 
-## Getting Started
+## Propuesta de arquitectura orientada a Api y SDK
+
+
 
 
 
