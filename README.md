@@ -45,6 +45,8 @@ El siguiente diagrama de clases ilustra a manera general como deberia funcionar 
 ## Propuesta de arquitectura orientada a Api y SDK
 
 
+El siguiente diagrama ilustra una propuesta a manera de arquitectura de solucion para un api y/o sdk para el manejo de la maquina de estados utilizando la propuesta de base de datos y que todas las funciones las entregue por una api.
 
+![](img/maquina-estados-2.png)
 
 
