@@ -36,7 +36,7 @@ El siguiente diagrama ilustra la persistencia necesaria para manejar la maquina 
 ## Modelo de Clases
 El siguiente diagrama de aplicacion ilustra el micro servicio para configurar estados por entidad, sus reglas y sus posibles estados.
 
-![](img/diagrama-configuration.png)
+![](img/ms-configuration.png)
 
 | Image | Status | Image | Status |
 | ------------- | ------------- | ------------- | ------------- |
