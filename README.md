@@ -34,6 +34,10 @@ El siguiente diagrama ilustra la persistencia necesaria para manejar la maquina 
 
 
 ## Modelo de Clases
+El siguiente diagrama de aplicacion ilustra el micro servicio para configurar estados por entidad, sus reglas y sus posibles estados.
+
+![](img/diagrama-configuration.png)
+
 | Image | Status | Image | Status |
 | ------------- | ------------- | ------------- | ------------- |
 | Web Status |  [![Web Status](https://github.com/dotnet-architecture/eShopOnContainers/workflows/webstatus/badge.svg?branch=dev)](https://github.com/dotnet-architecture/eShopOnContainers/actions?query=workflow%3Awebstatus) | Shopping Aggregator (Web) | [![Web Shopping Aggregator](https://github.com/dotnet-architecture/eShopOnContainers/workflows/webshoppingagg/badge.svg)](https://github.com/dotnet-architecture/eShopOnContainers/actions?query=workflow%3Awebshoppingagg) |
