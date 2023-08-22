@@ -23,6 +23,16 @@ El siguiente diagrama ilustra la persistencia necesaria para manejar la maquina 
 
 ![](img/diagrama-de-datos.png)
 
+- Entidad: Es la lista de clases y/o tipos de objectos posibles.
+- Estados: Es la lista de estados definidos por entidad.
+- TipoEstados: Esta tabla nos sirve para indicar si el estado es el inicial, por defecto, final o algun otro tipo que no visualizemos actualmente.
+- EstadosPosibles: Es la lista de estados posible por estado, es decir de donde a donde puedo pasar.
+- TipoDisparador: Esta tabla puede ser util para no solo ejecutar metodos sino tambien, llamar un webservice, lanzar un evento.Etc
+- Reglas: Aqui se configura el estado inicial y el estado final.
+- EstadosObjectos: Aqui se persiste el estado del objecto.
+- HistoricosEstados: Aqui se guardan los estados por los que ha pasado el obejcto.
+
+
 ## Modelo de Clases
 | Image | Status | Image | Status |
 | ------------- | ------------- | ------------- | ------------- |
