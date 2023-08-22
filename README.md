@@ -10,7 +10,7 @@ En esta documentacion se resuleve la prueba tecnica para el cargo de Arquitecto 
 
 El siguiente diagrama nos muestra un contexto general del problema y su solucion, contemplando tres actores principal, las aplicaciones que consumen la maquina de estados, la maquina de estados y su persistencia
 
-![](img/diagrama de contexto.png)
+![](img/diagrama-de-contexto.png)
 
 ## Arquitectura de Contenedor
 El siguiente diagrama nos ilustra la propuesta que se compone de una libreria para la implementacion de la maquina de estados y un microservicio de configuracion para hacer dinamica la parametrizacion de estados y sus  acciones
