@@ -2,16 +2,25 @@
    <img src="https://github.com/dotnet-architecture/eShopOnContainers/raw/dev/img/eshop_logo.png" alt="eShop logo" title="eShopOnContainers" align="right" height="60" />
 </a>
 
-# .NET Microservices Sample Reference Application
+# Prueba Tecnica Maquina de estados
 
-Sample .NET Core reference application, powered by Microsoft, based on a simplified microservices architecture and Docker containers.
+En esta documentacion se resuleve la prueba tecnica para el cargo de Arquitecto TI, de igual manera se propone una alternativa a una libreria y se explican las ventajas.
 
-## SPA Application (Angular)
+## Arquitectura de Contexto
 
-![](img/eshop-spa-app-home.png)
+El siguiente diagrama nos muestra un contexto general del problema y su solucion, contemplando tres actores principal, las aplicaciones que consumen la maquina de estados, la maquina de estados y su persistencia
 
-## Build Status (GitHub Actions)
+![](img/diagrama de contexto.png)
 
+## Arquitectura de Contenedor
+El siguiente diagrama nos ilustra la propuesta que se compone de una libreria para la implementacion de la maquina de estados y un microservicio de configuracion para hacer dinamica la parametrizacion de estados y sus  acciones
+
+![](img/diagrama de contenedor.png)
+
+## Arquitectura de Datos
+
+
+## Modelo de Clases
 | Image | Status | Image | Status |
 | ------------- | ------------- | ------------- | ------------- |
 | Web Status |  [![Web Status](https://github.com/dotnet-architecture/eShopOnContainers/workflows/webstatus/badge.svg?branch=dev)](https://github.com/dotnet-architecture/eShopOnContainers/actions?query=workflow%3Awebstatus) | Shopping Aggregator (Web) | [![Web Shopping Aggregator](https://github.com/dotnet-architecture/eShopOnContainers/workflows/webshoppingagg/badge.svg)](https://github.com/dotnet-architecture/eShopOnContainers/actions?query=workflow%3Awebshoppingagg) |
